@@ -1,7 +1,6 @@
-package dev.danvega.codestructure.controller;
+package dev.danvega.codestructure.post;
 
-import dev.danvega.codestructure.model.Post;
-import dev.danvega.codestructure.service.PostService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/posts")
-public class PostController {
+class PostController {
 
     private final PostService postService;
 
@@ -17,7 +16,8 @@ public class PostController {
         this.postService = postService;
     }
 
-    public List<Post> findAll() {
+    @GetMapping("")
+    List<Post> findAll() {
         return postService.findAll();
     }
 }

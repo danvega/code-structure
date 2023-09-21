@@ -40,6 +40,8 @@ It may also refer to the limiting of direct access to some of that data, such as
   - Since classes are scattered across packages, it is difficult to find the class you are looking for.
 - Testability (❌)
   - Since classes are public, they can be accessed by tests in any package. This allows you to write less focused tests.
+- Domain Driven Design (❌)
+  - Promotes Database Driven Design
 
 ## Package by Feature
 
@@ -55,3 +57,5 @@ It may also refer to the limiting of direct access to some of that data, such as
   - Reduces the need to navigate between packages since all classes needed for a feature are in the same package.
 - Testability
   - Since classes are not public, they can only be accessed by tests in the same package. This allows you to write more focused tests.
+- Domain Driven Design
+  - Promotes Domain Driven Design
