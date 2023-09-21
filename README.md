@@ -1,5 +1,7 @@
 # Spring Boot Code Structure
 
+This project is a sample project to show how to structure your code in a Spring Boot application. Spring Boot is an opinionated framework, but it does not tell you how to structure your code. This means that everything I am going through here is my opinion and you are free to disagree with me.
+
 - No default package 
 - In the same package as the main Application class (is possible) 
   - If not you will need to add `@ComponentScan(basePackages = {"dev.danvega.post", "dev.danvega.codestructure"})`
@@ -55,3 +57,9 @@ It may also refer to the limiting of direct access to some of that data, such as
   - Reduces the need to navigate between packages since all classes needed for a feature are in the same package.
 - Testability
   - Since classes are not public, they can only be accessed by tests in the same package. This allows you to write more focused tests.
+
+
+## Package by Feature & Package by Layer
+
+I have seen that some prefer to break down their project by feature but then add a layer in each feature package. I think this is going to 
+be a little bit of extra work and still have the side affects of package by layer.
