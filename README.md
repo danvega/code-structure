@@ -59,3 +59,9 @@ It may also refer to the limiting of direct access to some of that data, such as
   - Since classes are not public, they can only be accessed by tests in the same package. This allows you to write more focused tests.
 - Domain Driven Design
   - Promotes Domain Driven Design
+
+
+## Package by Feature & Package by Layer
+
+I have seen that some prefer to break down their project by feature but then add a layer in each feature package. I think this is going to
+be a little bit of extra work and still have the side affects of package by layer.
