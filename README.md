@@ -9,6 +9,7 @@
     - [Package by Layer vs Package by Feature](https://medium.com/sahibinden-technology/package-by-layer-vs-package-by-feature-7e89cde2ae3a)
     - [Java Practices](http://www.javapractices.com/topic/TopicAction.do?Id=205)
   - [Hexagonal architecture](https://reflectoring.io/spring-hexagonal/) / Onion Architecture 
+    - Get your hands dirty with [Hexagonal Architecture](https://reflectoring.io/spring-hexagonal/)
   - [Spring Modulith](https://spring.io/projects/spring-modulith)
 
 ![Package Structure](./package-by-layer-feature.png)
